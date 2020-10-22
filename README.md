@@ -1,3 +1,7 @@
+```bash
+g++ -g -o uvc src/uvc.cpp -luvc -lopenh264
+```
+
 `libuvc` is a cross-platform library for USB video devices, built atop `libusb`.
 It enables fine-grained control over USB video devices exporting the standard USB Video Class
 (UVC) interface, enabling developers to write drivers for previously unsupported devices,
